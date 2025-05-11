@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Input styling */
+.input {
+  @apply border border-gray-300 rounded px-3 py-2 w-full bg-transparent text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+/* Themes */
+.theme1 {
+  @apply bg-blue-50 text-gray-900;
+}
+
+.theme2 {
+  @apply bg-gray-900 text-white;
+}
+
+.theme3 {
+  @apply bg-pink-100 text-gray-800;
+}
